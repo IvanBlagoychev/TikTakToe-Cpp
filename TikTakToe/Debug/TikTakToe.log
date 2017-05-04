@@ -1,3 +1,0 @@
-﻿  TikTakToe.cpp
-c:\users\hristina\documents\visual studio 2015\projects\tiktaktoe\tiktaktoe\tiktaktoe.cpp(52): warning C4715: 'CheckPosition': not all control paths return a value
-  TikTakToe.vcxproj -> C:\Users\Hristina\Documents\Visual Studio 2015\Projects\TikTakToe\Debug\TikTakToe.exe
