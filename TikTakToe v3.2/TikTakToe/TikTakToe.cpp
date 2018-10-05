@@ -77,16 +77,16 @@ string CheckInputValidation(string InputPosition)
 	{
 		while (TryParseInput(InputPosition) == false)
 		{
-			cout << "Invalid input." << endl;
-			cout << "Enter the desired position as a number: " << endl;
+			cout << "Invalid  input." << endl;
+			cout << "Enter the  desired position as a number: " << endl;
 			cin >> InputPosition;
 		}
 		if (stoi(InputPosition) < 1 || stoi(InputPosition) > 9)
 		{
 			while (stoi(InputPosition) < 1 || stoi(InputPosition) > 9)
 			{
-				cout << "Number must be in range 1 - 9 !" << endl;
-				cout << "Enter the desired position as a number from the specified range: " << endl;
+				cout << "Number  must be in range 1 - 9 !" << endl;
+				cout << "Enter  the desired position as a number from the specified range: " << endl;
 				cin >> InputPosition;
 			}
 		}
